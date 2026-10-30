@@ -1,0 +1,58 @@
+A,B=map(int,input().split())
+print(A+B)
+print(A-B)
+print(A*B)
+print(int(A/B))
+if A<0 or B<0:
+  C=abs(A)%abs(B)
+  print(-1*C)
+else:
+    print(A%B)
+
+
+a=int(input())
+b=float(input())
+c=input().strip()
+d=int(input())
+e=float(input())
+print(a)
+print(b)
+print(c)
+print(d)
+print(e)
+
+A,B=map(int,input().split())
+print(A+B)
+print(A-B)
+print(A*B)
+print(int(A/B))
+if A<0 or B<0:
+  C=abs(A)%abs(B)
+  print(-1*C)
+else:
+    print(A%B)
+
+a=int(input())
+print(chr(a))
+
+
+a=int(input())
+print(a+5)
+print(a*2)
+print(a-3)
+print(a)
+
+
+a=int(input())
+print(((a+5)*2)-3)
+
+
+name=input()
+print("Hi" ,name + ", welcome to the programming class!")
+
+
+
+
+
+
+

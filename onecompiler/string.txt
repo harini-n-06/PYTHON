@@ -1,0 +1,28 @@
+a=input()
+b=input()
+for i in a:
+  if b in a:
+    print("true")
+    break
+  else:
+    print('false')
+  
+a=input()
+b=input()
+result=""
+for i in a:
+  if b not in i:
+    result+=i
+print(result)
+  
+a=input()
+result=""
+n=['a','e','i','o','u','A','E','I','O','U']
+for i in a:
+  if i not in n:
+    result+=i
+print(result)
+    
+  
+
+

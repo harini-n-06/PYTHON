@@ -1,0 +1,91 @@
+a=input()
+b=input()
+for i in a:
+  if b in a:
+    print("true")
+    break
+  else:
+    print('false')
+  
+a=input()
+b=input()
+result=""
+for i in a:
+  if b not in i:
+    result+=i
+print(result)
+  
+a=input()
+print(ord(a))
+
+a=input()
+print(ord(a))
+
+a=input()
+print(a.swapcase())
+
+a=input()
+result=""
+n=['a','e','i','o','u','A','E','I','O','U']
+for i in a:
+  if i not in n:
+    result+=i
+print(result)
+    
+  
+a=input().split(",")
+for i in a:
+  print(i)
+
+a=input()
+print(a[::-1])
+
+a=input()
+b=input()
+if len(a)==len(b):
+  print("true")
+else:
+  print("false")
+
+
+a=input()
+b=input()
+if len(a)==len(b):
+  print("true")
+else:
+  print("false")
+
+a=input()
+if a.islower():
+  print("true")
+else:
+  print("false")
+
+a=input()
+if a.isupper():
+  print("true")
+else:
+  print("false")
+    
+  
+a=input()
+le=num=False
+for i in a:
+  if i.isalpha():
+    le=True
+  elif i.isdigit():
+    num=True
+if le and num:
+  print("true")
+else:
+  print("false")
+
+
+a=input()
+c=a[0]
+d=a[-1]
+print(c+d)
+
+
+
+
